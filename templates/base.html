@@ -1,0 +1,157 @@
+{# Load the tag library #}
+{% load bootstrap3 %}
+
+{# Load CSS and JavaScript #}
+{% bootstrap_css %}
+{% bootstrap_javascript %}
+
+{# Display django.contrib.messages as Bootstrap alerts #}
+{% bootstrap_messages %}
+
+{# Load Sitetree für Menudefinition #}
+{% load sitetree %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/full.css' %}" rel="stylesheet">
+    <link href="{% static 'css/web.assets_backend.0.css' %}" rel="stylesheet">
+    <link href="{% static 'css/web.assets_backend.1.css' %}" rel="stylesheet">
+    <link href="{% static 'css/web.assets_common.0.css' %}" rel="stylesheet">
+</head>
+<body class="o_web_client">
+    <div id="announcement_bar_table" class="openerp">
+        <nav id="oe_main_menu_navbar" class="navbar navbar-inverse" role="navigation" groups="base.group_user,base.group_portal">
+            <div id="oe_main_menu_placeholder" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left oe_application_menu_placeholder" style="">
+                    {% if request.user.is_authenticated %}
+                        {% block topmenu %}
+                        {% endblock topmenu %}
+                    {% endif %}
+                </ul>
+                <ul class="nav navbar-nav navbar-right oe_user_menu_placeholder" style="">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <span class="oe_topbar_name">
+                                {% if request.user.is_authenticated %}
+                                    <a  data-menu="logout" href="{% url "logout" %}">Logout</a>
+                                {% else %}
+                                    <a  data-menu="logout" href="{% url "login" %}">Log-in</a>
+                                {% endif %}
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right oe_systray" style="">
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="openerp openerp_webclient_container oe_webclient" style="height: calc(100% - 34px);">
+        <div class="oe_leftbar" style="display: flex;">
+            <a class="oe_logo" href="/web">
+                <!--<span class="oe_logo_edit oe_logo_edit_admin">Edit Company data</span>-->
+                <img src="{% static "images/logo_delphin.png" %}" alt=" " width="100%"/>
+            </a>
+            <div class="oe_secondary_menus_container">
+                {% block submenu %}
+                    {% if request.user.is_authenticated %}
+                        {% sitetree_menu from "topmenu" include "einstellungen" template "menu/menu.html" %}
+                    {% endif %}
+                {% endblock submenu %}
+            </div>
+            <div class="oe_footer">
+                Unterstützt durch
+                <a href="http://www.delphin-amazonia.ch" target="_blank">
+                    <span>Delphin Amazonia AG</span>
+                </a>
+            </div>
+        </div>
+        <div class="oe_application">
+            <div class="oe-control-panel">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="oe-cp-title col-md-12">
+                            <ol class="oe-view-title breadcrumb">
+                            </ol>
+                        </div>
+                        <div class="oe-cp-search-view col-md-6">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 oe-button-column">
+                            <div class="oe-cp-buttons"></div>
+                            <div class="oe-cp-sidebar"></div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="oe-search-options btn-group" style="display: none;">
+                            </div>
+                            <div class="oe-right-toolbar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="oe-view-manager oe_view_manager_current">
+                <div class="oe-view-manager-content">
+                    <div class="oe-view-manager-view-list" style="display: block;">
+                        <div class="oe_list o_list_view oe_view">
+                            <div class="oe_formview oe_view oe_form_readonly" style="opacity: 1;">
+                                <div class="oe_form_container">
+                                    <div class="oe_form">
+                                        <div class="">
+                                            <header class="o_statusbar_buttons">
+                                            </header>
+                                            <div class="oe_form_sheetbg">
+                                                {% block content %}
+                                                {% endblock content %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oe-view-manager-view-kanban"></div>
+                    <div class="oe-view-manager-view-form"></div>
+                    <div class="oe-view-manager-view-calendar"></div>
+                    <div class="oe-view-manager-view-pivot"></div>
+                    <div class="oe-view-manager-view-graph"></div>
+                </div>
+            </div>
+        </div>
+        <div class="o_notification_manager">
+            {% block messages %}
+            {% endblock messages %}
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src=" http://cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js "></script>
+    <script>
+        var csrftoken = $.cookie('csrftoken');
+        function csrfSafeMethod(method) {
+            // these HTTP methods do not require CSRF protection
+            return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+        }
+        $.ajaxSetup({
+            beforeSend: function(xhr, settings) {
+                if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                    xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                }
+            }
+        });
+
+        $(document).ready(function(){
+            {% block domready %}
+            {% endblock %}
+		});
+    </script>
+</body>
+</html>

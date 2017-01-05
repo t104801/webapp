@@ -1,0 +1,13 @@
+{% extends base.html %}
+
+{% load i18n mptt_tags %}
+
+{% block topmenu %}
+<ul class="nav navbar-nav navbar-left oe_application_menu_placeholder" style="">
+    {% recursetree topmenulist %}
+    <li {% if node.is_current %} class="{{ node.is_current|yesno:"active, " }}" {% endif %} style="display: block;">
+        <a  class="oe_menu_leaf" href="{{  node.action }}" {% if item.hint %}title="{{ node.name }}"{% endif %} {% if node.is_current or node.in_current_branch %}class="{{ node.is_current|yesno:"current_item ," }}{{ node.in_current_branch|yesno:"current_branch," }}"{% endif %}>{{ node.name }}</a>
+    </li>
+    {% endrecursetree %}
+</ul>
+{% endblock topmenu %}

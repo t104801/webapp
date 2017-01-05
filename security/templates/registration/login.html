@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Anmeldung{% endblock %}
+
+{% block content %}
+    <h1>Anmeldung</h1>
+    {% if form.errors %}
+        <p>Ihr Benutzername und Passwort sind nicht korrekt. Bitte versuchen Sie es nochmals.</p>
+    {% endif %}
+    
+    <div class="login-form">
+        <form action="{% url "login" %}" method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="hidden" name="next" value="{{ next }}" />
+            <p><input type="submit" value="Log-in"></p>
+        </form>
+        <p><a href="{% url "password_reset" %}">Haben Sie Ihr Passwort vergessen?</a></p>
+    </div>
+
+{% endblock %}
