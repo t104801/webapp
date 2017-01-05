@@ -62,7 +62,7 @@
             <div class="oe_secondary_menus_container">
                 {% block submenu %}
                     {% if request.user.is_authenticated %}
-                        {% sitetree_menu from "topmenu" include "einstellungen" template "menu/menu.html" %}
+
                     {% endif %}
                 {% endblock submenu %}
             </div>

@@ -117,10 +117,10 @@ WSGI_APPLICATION = 'webapp.wsgi.application'
 DATABASES = {
     'default': {
     'ENGINE':   'django.db.backends.oracle',
-    #'NAME':     'daoda1scan/SHCDBT4_PRI.da02.delphin-amazonia.ch',
-    'NAME':     'ORCL',
-    'HOST':     'localhost',
-    'PORT':     '1521',
+    'NAME':     'daoda1scan/SHCDBT4_PRI.da02.delphin-amazonia.ch',
+    #'NAME':     'ORCL',
+    #'HOST':     'localhost',
+    #'PORT':     '1521',
     'USER':     'DAPY',
     'PASSWORD': 'zebex'
   }
@@ -189,7 +189,7 @@ AUTH_LDAP_SERVER_URI = "ldap://ldap.intranet.ch:389"
 AUTH_LDAP_BIND_DN = "CN=ldap-query,OU=Service,OU=Konten,OU=Delphin,DC=da02,DC=delphin-amazonia,DC=ch"
 AUTH_LDAP_BIND_PASSWORD = "queryntdmn"
 AUTH_LDAP_CONNECTION_OPTIONS = {
-    ldap.OPT_DEBUG_LEVEL: 1,
+    ldap.OPT_DEBUG_LEVEL: 2,
     ldap.OPT_REFERRALS: 0,
 }
 # What to do once the user is authenticated
