@@ -3,16 +3,13 @@
 {% block submenu %}
 <div class="oe_secondary_menu" style="" data-menu-parent="63">
 	{% for item in sitetree_items %}
-		<div class="oe_secondary_menu_section">{{ item.title_resolved }}</div>
+		<div class="oe_secondary_menu_section">{{ item.name }}</div>
 		<ul class="oe_secondary_submenu nav nav-pills nav-stacked">
-			<!--<li {% if item.is_current %}class="{{ item.is_current|yesno:"active, " }}"{% endif %}>
+			<li {% if item.is_current %}class="{{ item.is_current|yesno:"active, " }}"{% endif %}>
 				<div class="oe_secondary_menu_section">
-					<a href="{% sitetree_url for item %}" {% if item.hint %}title="{{ item.hint }}"{% endif %} {% if item.is_current or item.in_current_branch %}class="{{ item.is_current|yesno:"current_item ," }}{{ item.in_current_branch|yesno:"current_branch," }}"{% endif %}>{{ item.title_resolved }}</a>-->
-					{% if item.has_children %}
-						{% sitetree_children of item for menu template "menu/menu_aside.html" %}
-					{% endif %}
-				<!--</div>
-			</li>-->
+					<a href="{% sitetree_url for item %}" {% if item.hint %}title="{{ item.hint }}"{% endif %} {% if item.is_current or item.in_current_branch %}class="{{ item.is_current|yesno:"current_item ," }}{{ item.in_current_branch|yesno:"current_branch," }}"{% endif %}>{{ item.title_resolved }}</a>
+				</div>
+			</li>
 		</ul>
 	{% endfor %}
 </div>

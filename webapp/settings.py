@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'polymorphic',
     'mptt',
     'django_mptt_admin',
+    'mptt_tree_editor',
     #'genericadmin',
     'treebeard',
     'web',

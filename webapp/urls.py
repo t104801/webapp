@@ -25,5 +25,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^show_json', show_json),
     url(r'^$', index),
-    url(r'^web/', include('web.urls')),
+    #url(r'^web/', include('web.urls')),
 ]

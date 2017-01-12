@@ -8,7 +8,7 @@ from django.shortcuts import render
 from .models import IrUiMenu
 
 def topmenulist(request):
-    context = {"topmenu": IrUiMenu.objects.all()}
+    context = IrUiMenu.get_root_menu()
     return render(request,
                   "web/topmenu.html",
                   context)

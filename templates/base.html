@@ -1,15 +1,10 @@
 {# Load the tag library #}
 {% load bootstrap3 %}
 
-{# Load CSS and JavaScript #}
-{% bootstrap_css %}
-{% bootstrap_javascript %}
-
 {# Display django.contrib.messages as Bootstrap alerts #}
 {% bootstrap_messages %}
 
-{# Load Sitetree für Menudefinition #}
-{% load sitetree %}
+{% load i18n mptt_tags %}
 
 {% load static %}
 
@@ -24,6 +19,9 @@
     <link href="{% static 'css/web.assets_backend.0.css' %}" rel="stylesheet">
     <link href="{% static 'css/web.assets_backend.1.css' %}" rel="stylesheet">
     <link href="{% static 'css/web.assets_common.0.css' %}" rel="stylesheet">
+    {# Load CSS and JavaScript #}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
 </head>
 <body class="o_web_client">
     <div id="announcement_bar_table" class="openerp">
@@ -32,6 +30,11 @@
                 <ul class="nav navbar-nav navbar-left oe_application_menu_placeholder" style="">
                     {% if request.user.is_authenticated %}
                         {% block topmenu %}
+                            {% for topmenu in topmenus %}
+                            <li {% if topmenu.is_current %} class="{{ topmenu.is_current|yesno:"active, " }}" {% endif %} style="display: block;">
+                                <a  class="oe_menu_leaf" href="?action={{ topmenu.pk }}" {% if topmenu.hint %}title="{{ topmenu.hint }}"{% endif %} {% if topmenu.is_current or topmenu.in_current_branch %}class="{{ topmenu.is_current|yesno:"current_item ," }}{{ topmenu.in_current_branch|yesno:"current_branch," }}"{% endif %}>{{ topmenu.name }}</a>
+                            </li>
+                            {% endfor %}
                         {% endblock topmenu %}
                     {% endif %}
                 </ul>
@@ -62,7 +65,33 @@
             <div class="oe_secondary_menus_container">
                 {% block submenu %}
                     {% if request.user.is_authenticated %}
-
+                        <div class="oe_secondary_menu" style="" data-menu-parent="63">
+                            {% if submenus %}
+                                <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                                    {% for submenu in submenus %}
+                                        {% if submenu.level == 1 %}
+                                            {% if submenu.Action == Null %}
+                                                <div class="oe_secondary_menu_section">{{ submenu.name }}</div>
+                                            {% else %}
+                                                <div class="oe_secondary_menu_section">
+                                                    <a class="oe_menu_leaf" href="{{ submenu.action }}" {% if submenu.hint %}title="{{ submenu.hint }}"{% endif %} {% if submenu.is_current or submenu.in_current_branch %}class="{{ submenu.is_current|yesno:"current_item ," }}{{ submenu.in_current_branch|yesno:"current_branch," }}"{% endif %}>
+                                                        <span class="oe_menu_text">{{ submenu.name }}</span>
+                                                    </a>
+                                                </div>
+                                            {% endif %}
+                                        {% elif submenu.level == 2 %}
+                                            <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+                                                <li {% if submenu.is_current %}class="{{ submenu.is_current|yesno:"active, " }}"{% endif %}>
+                                                    <a class="oe_menu_leaf" href="{{ submenu.action }}" {% if submenu.hint %}title="{{ submenu.hint }}"{% endif %} {% if submenu.is_current or submenu.in_current_branch %}class="{{ submenu.is_current|yesno:"current_item ," }}{{ submenu.in_current_branch|yesno:"current_branch," }}"{% endif %}>
+                                                        <span class="oe_menu_text">{{ submenu.name }}</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
                     {% endif %}
                 {% endblock submenu %}
             </div>
