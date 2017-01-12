@@ -6,6 +6,8 @@
 
 {% load i18n mptt_tags %}
 
+{% load web_tags %}
+
 {% load static %}
 
 <!DOCTYPE html>
@@ -74,7 +76,7 @@
                                                 <div class="oe_secondary_menu_section">{{ submenu.name }}</div>
                                             {% else %}
                                                 <div class="oe_secondary_menu_section">
-                                                    <a class="oe_menu_leaf" href="{{ submenu.action }}" {% if submenu.hint %}title="{{ submenu.hint }}"{% endif %} {% if submenu.is_current or submenu.in_current_branch %}class="{{ submenu.is_current|yesno:"current_item ," }}{{ submenu.in_current_branch|yesno:"current_branch," }}"{% endif %}>
+                                                    <a class="oe_menu_leaf" href="{{submenu.action }} " {% if submenu.hint %}title="{{ submenu.hint }}"{% endif %} {% if submenu.is_current or submenu.in_current_branch %}class="{{ submenu.is_current|yesno:"current_item ," }}{{ submenu.in_current_branch|yesno:"current_branch," }}"{% endif %}>
                                                         <span class="oe_menu_text">{{ submenu.name }}</span>
                                                     </a>
                                                 </div>

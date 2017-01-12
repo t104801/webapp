@@ -2,357 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="975a9d06-91e8-4ead-9544-f0d6cacd05f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/accessories-archiver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/add-shortcut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/attachments-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/back-enable.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/box-a-header-a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/collapse.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/db.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/down-arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/enterprise_upgrade.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/expand.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/form_steps.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/gradientlinebg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/graph_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/header.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_ABOUT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_ADD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_APPLY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_BOLD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_CANCEL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_CDROM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_CLEAR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_CLOSE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_COLOR_PICKER.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_CONNECT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_CONVERT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_COPY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_CUT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DELETE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DIALOG_AUTHENTICATION.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DIALOG_ERROR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DIALOG_INFO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DIALOG_QUESTION.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DIALOG_WARNING.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DIRECTORY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DIRECTORY_MENU.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DISCONNECT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DND.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_DND_MULTIPLE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_EDIT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_EXECUTE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_FILE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_FIND.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_FIND_AND_REPLACE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_FLOPPY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_FULLSCREEN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GOTO_BOTTOM.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GOTO_FIRST.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GOTO_LAST.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GOTO_TOP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GO_BACK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GO_DOWN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GO_FORWARD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_GO_UP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_HARDDISK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_HELP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_HOME.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_INDENT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_INDEX.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_INFO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_ITALIC.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_JUMP_TO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_JUSTIFY_CENTER.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_JUSTIFY_FILL.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_JUSTIFY_LEFT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_JUSTIFY_RIGHT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_LEAVE_FULLSCREEN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_FORWARD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_NEXT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_PAUSE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_PLAY.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_PREVIOUS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_RECORD.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_REWIND.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MEDIA_STOP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_MISSING_IMAGE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_NETWORK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_NEW.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_NO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_OK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_OPEN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_PASTE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_PREFERENCES.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_PRINT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_PRINT_PREVIEW.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_PROPERTIES.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_QUIT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_REDO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_REFRESH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_REMOVE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_REVERT_TO_SAVED.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_SAVE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_SAVE_AS.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_SELECT_COLOR.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_SELECT_FONT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_SORT_ASCENDING.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_SORT_DESCENDING.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_SPELL_CHECK.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_STOP.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_STRIKETHROUGH.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_UNDELETE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_UNDERLINE.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_UNDO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_UNINDENT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_YES.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_ZOOM_100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_ZOOM_FIT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_ZOOM_IN.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/STOCK_ZOOM_OUT.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/color-picker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-apply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-bold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-cdrom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-clear.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-color-picker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-connect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-convert.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-copy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-cut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-dialog-authentication.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-dialog-error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-dialog-info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-dialog-question.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-dialog-warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-directory-remote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-directory.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-disconnect.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-dnd-multiple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-dnd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-edit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-execute.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-find-and-replace.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-find.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-floppy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-go-back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-go-down.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-go-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-go-up.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-goto-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-goto-first.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-goto-last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-goto-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-harddisk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-indent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-italic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-jump-to.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-justify-center.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-justify-fill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-justify-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-justify-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-leave-fullscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-play.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-previous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-record.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-rewind.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-media-stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-missing-image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-network.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-paste-v.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-paste.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-preferences.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-print-preview.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-properties.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-quit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-redo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-revert-to-saved.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-save-as.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-save.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-select-color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-select-font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-sort-ascending.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-sort-descending.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-spell-check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-strikethrough.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-undelete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-underline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-unindent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-zoom-100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-zoom-fit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-zoom-in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/gtk-zoom-out.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/index1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/index2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/kanban-apply.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/kanban-pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/kanban-stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/save-document.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/star-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/star-on.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stock_calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stock_gantt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stock_graph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stock_log.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stock_person.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stock_translate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-accessories-archiver+.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-accessories-archiver-minus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-accessories-archiver.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-account.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-administration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-call-start.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-camera_test.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-check.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-crm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-dialog-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-document-new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-dolar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-dolar_ok!.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-emblem-important.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-face-plain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-folder-blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-folder-green.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-folder-orange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-folder-violet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-folder-yellow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gdu-smart-failing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gnome-cpu-frequency-applet+.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-go-home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-go-month.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-go-today.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-go-week.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-go-year.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-graph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gtk-go-back-ltr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gtk-go-back-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gtk-jump-to-ltr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gtk-jump-to-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gtk-media-pause.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gtk-select-all.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-gtk-stop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-hr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-idea.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-locked.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-mail-.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-mail-forward.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-mail-message-new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-mail-replied.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-mail_delete.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-marketing.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-mrp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-partner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-personal+.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-personal-.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-personal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-product.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-project.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-purchase.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-rating-rated.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-report.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-sale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stock_align_left_24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stock_effects-object-colorize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stock_format-default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stock_format-scientific.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stock_symbol-selection.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-stock_zoom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-tools.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/terp-translate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/iconset-a-help.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/iconset-a-help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/iconset-b-remove.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/iconset-d-drop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo_inverse_white_206px.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/addresses.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/archive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/audio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/binary.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/certificate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/disk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/document.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/html.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/presentation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/print.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/script.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/spreadsheet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/unknown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/vector.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mimetypes/video.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/nologo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pager_first.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pager_last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pager_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pager_previous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/partner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/pencil.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/product.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/remove-shortcut.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/search_reset.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/sep-a.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/stock_person.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/throbber-large.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/toggle-a-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ui/field_calendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ui/group-expanded.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ui/group-folded.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/user_menu_avatar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/view_empty_arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/views-icons-a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templatetags/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templatetags/web.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/images/form_sheetbg.png" afterPath="$PROJECT_DIR$/static/images/form_sheetbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/templatetags/web_tags.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/menu/menu.html" afterPath="$PROJECT_DIR$/templates/menu/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin.py" afterPath="$PROJECT_DIR$/web/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/models.py" afterPath="$PROJECT_DIR$/web/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/views.py" afterPath="$PROJECT_DIR$/web/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/requirements.txt" afterPath="$PROJECT_DIR$/webapp/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/settings.py" afterPath="$PROJECT_DIR$/webapp/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/urls.py" afterPath="$PROJECT_DIR$/webapp/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/views.py" afterPath="$PROJECT_DIR$/webapp/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -366,6 +20,9 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="web" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
@@ -383,8 +40,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="90" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="90" />
+            <state relative-caret-position="765">
+              <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding>
                 <element signature="e#41#80#0" expanded="true" />
               </folding>
@@ -392,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="645">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="e#44#106#0" expanded="true" />
               </folding>
@@ -404,12 +61,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web_tags.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templatetags/web_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="68" column="45" lean-forward="false" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+            <state relative-caret-position="450">
+              <caret line="78" column="100" lean-forward="false" selection-start-line="78" selection-start-column="100" selection-end-line="78" selection-end-column="100" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mptt_tags.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/web/lib/python2.7/site-packages/mptt/templatetags/mptt_tags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#87#126#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -447,6 +126,7 @@
       <find>get_tree_current_item</find>
       <find>get_descendants</find>
       <find>new_level</find>
+      <find>from django import template</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -499,7 +179,9 @@
         <option value="$PROJECT_DIR$/webapp/urls.py" />
         <option value="$PROJECT_DIR$/webapp/settings.py" />
         <option value="$PROJECT_DIR$/web/admin.py" />
+        <option value="$PROJECT_DIR$/web/templatetags/web_templatetags.py" />
         <option value="$PROJECT_DIR$/web/models.py" />
+        <option value="$PROJECT_DIR$/web/templatetags/web_tags.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/webapp/views.py" />
       </list>
@@ -742,7 +424,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templatetags" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -998,23 +684,39 @@
       <option name="project" value="LOCAL" />
       <updated>1483631682335</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit from 2017.01.12&#10;Am Menu weitergearbeitet">
+      <created>1484223378363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484223378363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1266" height="1302" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26740506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26740506" sideWeight="0.49157894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329661" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3342981" sideWeight="0.4186217" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.48853868" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.49713877" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19491525" sideWeight="0.5813783" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19491525" sideWeight="0.5813783" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49578947" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26740506" sideWeight="0.50842106" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.48853868" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1054,8 +756,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/login/templates/login/edit.html" />
-    <entry file="file://$PROJECT_DIR$/templates/login.html" />
     <entry file="file://$PROJECT_DIR$/security/templates/security/login.html" />
     <entry file="file://$PROJECT_DIR$/security/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1298,7 +998,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
-            <element signature="e#42#81#0" expanded="true" />
+            <element signature="e#42#81#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1326,7 +1026,7 @@
         <state relative-caret-position="75">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1378,7 +1078,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="39" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1399,39 +1099,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/web/lib/python2.7/site-packages/mptt/templatetags/mptt_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#87#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templatetags/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="90" lean-forward="false" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="90" />
+        <state relative-caret-position="765">
+          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
           <folding>
             <element signature="e#41#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/views.py">
+    <entry file="file://$PROJECT_DIR$/web/templatetags/web_tags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="e#44#106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/web/lib/python2.7/site-packages/mptt/templatetags/mptt_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="181" column="7" lean-forward="false" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="68" column="45" lean-forward="false" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+        <state relative-caret-position="450">
+          <caret line="78" column="100" lean-forward="false" selection-start-line="78" selection-start-column="100" selection-end-line="78" selection-end-column="100" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#106#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

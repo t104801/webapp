@@ -11,6 +11,7 @@ from django.utils.encoding import \
 from mptt.models import MPTTModel
 from mptt.fields import TreeForeignKey, TreeManyToManyField
 
+
 class RootMenuManager(models.Manager):
     def get_root_menu(self):
         return super(RootMenuManager,
@@ -48,5 +49,6 @@ class IrUiMenu(MPTTModel):
     @classmethod
     def submenu(self, args):
         submenus = IrUiMenu.get_descendants(IrUiMenu.objects.get(pk=args)).order_by("lft")
-        print args, submenus
+        #print args, submenus
         return submenus
+

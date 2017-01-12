@@ -31,7 +31,6 @@ def index(request):
                    "submenus": submenus},
                   )
 
-
 def show_json(request):
     response_data = dict()
     response_data['result'] = 'failed'
