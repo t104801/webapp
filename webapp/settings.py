@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'admin_tools.theming',
     'admin_tools.menu',
     'admin_tools.dashboard',
+    'parler',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -65,6 +66,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'generic_scaffold',
     'actions',
+    'zuteilung',
 ]
 
 MIDDLEWARE = [

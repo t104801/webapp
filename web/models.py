@@ -31,7 +31,7 @@ class IrUiMenu(MPTTModel):
     sequence = models.IntegerField(name="Sequence", unique=False, null=False,default=0)
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     class Meta:
         ordering = ["tree_id", "lft"]
@@ -48,7 +48,14 @@ class IrUiMenu(MPTTModel):
 
     @classmethod
     def submenu(self, args):
-        submenus = IrUiMenu.get_descendants(IrUiMenu.objects.get(pk=args)).order_by("lft")
+        submenus=[]
+        for i in IrUiMenu.get_descendants(IrUiMenu.objects.get(pk=args)).order_by("lft"):
+            if i.action != "":
+                submenus += [i.id, i.name, i.parent, i.action.split(',')[0], i.action.split(',')[1], i.lft, i.rght]
+            else:
+                submenus += [i.id, i.name, i.parent, i.action.split(',')[0], '', i.lft, i.rght]
+
+        print submenus
+
         #print args, submenus
         return submenus
-

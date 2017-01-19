@@ -7,12 +7,12 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.models import User
 from django.template import RequestContext
 from web.models import IrUiMenu
-import json
 
+import json
 
 def index(request):
     topmenus = IrUiMenu.topmenu()
-    submenus = []
+    submenus = {}
 
     try:
         action = request.GET["action"]
@@ -20,11 +20,14 @@ def index(request):
         action = None
 
     if action == None:
-        submenus = []
+        submenus = {}
     else:
         submenus = IrUiMenu.get_descendants(IrUiMenu.objects.get(pk=action)).order_by("lft")
+        for i in submenus:
+            print i.action.split(",")[0]
 
-    print topmenus, "/", submenus
+
+    print topmenus, "/", submenus ,"/"
     return render(request,
                   'index.html',
                   {"topmenus": topmenus,
