@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="975a9d06-91e8-4ead-9544-f0d6cacd05f4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/querysets.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/models.py" afterPath="$PROJECT_DIR$/web/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templatetags/web_tags.py" afterPath="$PROJECT_DIR$/web/templatetags/web_tags.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/settings.py" afterPath="$PROJECT_DIR$/webapp/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/views.py" afterPath="$PROJECT_DIR$/webapp/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -581,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484234291957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit from 2017.01.19&#10;Am Menu weitergearbeitet">
+      <created>1484841062485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484841062485</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -630,7 +631,8 @@
     <MESSAGE value="Commit from 2017.01.05" />
     <MESSAGE value="Commit from 2017.01.12" />
     <MESSAGE value="Commit from 2017.01.12&#10;Am Menu weitergearbeitet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit from 2017.01.12&#10;Am Menu weitergearbeitet" />
+    <MESSAGE value="Commit from 2017.01.19&#10;Am Menu weitergearbeitet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit from 2017.01.19&#10;Am Menu weitergearbeitet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
