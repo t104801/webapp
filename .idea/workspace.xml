@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="975a9d06-91e8-4ead-9544-f0d6cacd05f4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/web.iml" afterPath="$PROJECT_DIR$/.idea/web.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -573,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484841110328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit from 2017.01.23&#10;Vor dem Wechsel von Mptt auf SiteTreeMenu &#10;- Idee von Odoomenu verworfen und auf Dynamisches Menu gewechselt.">
+      <created>1485174527698</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1485174527698</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -623,7 +628,8 @@
     <MESSAGE value="Commit from 2017.01.12" />
     <MESSAGE value="Commit from 2017.01.12&#10;Am Menu weitergearbeitet" />
     <MESSAGE value="Commit from 2017.01.19&#10;Am Menu weitergearbeitet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit from 2017.01.19&#10;Am Menu weitergearbeitet" />
+    <MESSAGE value="Commit from 2017.01.23&#10;Vor dem Wechsel von Mptt auf SiteTreeMenu &#10;- Idee von Odoomenu verworfen und auf Dynamisches Menu gewechselt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit from 2017.01.23&#10;Vor dem Wechsel von Mptt auf SiteTreeMenu &#10;- Idee von Odoomenu verworfen und auf Dynamisches Menu gewechselt." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
