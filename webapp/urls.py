@@ -25,5 +25,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^show_json', show_json),
     url(r'^$', index),
+    url(r'^treenav/', include('treenav.urls')),
+    url(r'^zuteilung/', include('zuteilung.urls', namespace='zuteilung', app_name='zuteilung'))
     #url(r'^web/', include('web.urls')),
 ]

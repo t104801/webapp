@@ -48,22 +48,24 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'bootstrap3',
     'django_tables2',
+    'sorting_bootstrap',
     'django_xworkflows',
-    'sitetree',
     'dashing',
+    'taggit',
     'ckeditor',
     'polymorphic_tree',
     'polymorphic',
     'mptt',
+    'treenav',
     'django_mptt_admin',
     'mptt_tree_editor',
     #'genericadmin',
     'treebeard',
-    'web',
     #'filer',
     #'easy_thumbnails',
     #'calendarium',
     'crispy_forms',
+    'floppyforms',
     'generic_scaffold',
     'actions',
     'zuteilung',
@@ -77,6 +79,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.auth.middleware.RemoteUserMiddleware',
 ]
 
 ROOT_URLCONF = 'webapp.urls'
@@ -90,6 +93,7 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                #'treenav.context_processors.treenav_active',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -237,3 +241,7 @@ REDIS_PORT = 6379
 REDIS_DB = 0
 
 LOGIN_REDIRECT_URL = "/"
+
+# Settings for Crispy Forms
+# Possibilities: 'bootstrap', 'bootstrap3', 'bootstrap4', 'uni-form', 'foundation'
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

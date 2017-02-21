@@ -1,0 +1,63 @@
+{% extends "../../base.html" %}
+{% load zuteilungs_tags %}
+
+{% block submenu %}
+    <ul class="oe_secondary_submenu nav nav-pills nav-stacked">
+    {% for dati in datis %}
+        <li {% if dati.aktiv %}class="active"{% endif %}>
+            <a class="oe_menu_leaf" href="/zuteilung/{{ dati.year }}/{{ dati.month }}/{{ dati.day }}">
+                <span class="oe_menu_text">
+                    {{ dati.effdt|date:"SHORT_DATE_FORMAT" }}
+                </span>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock submenu%}
+
+{% block buttons %}
+    <form method="post" action="">
+        {% csrf_token %}
+        {{ form.as_table }}
+        <input type="submit" value="Einfügen">
+    </form>
+{% endblock buttons %}
+
+{% block content %}
+    <div class="scrollable-table">
+        <table class="table table-striped table-header-rotated">
+            <thead>
+                <tr>
+                    <th>Mandant:</th>
+                    <th>Filial-Nr:</th>
+                    <th>Filiale:</th>
+                    <th>Aktiv:</th>
+                    <th>Fläche:</th>
+                    <th class="vertical"><div class="vertical">Eigenschaft:</div></th>
+                    <th class="umsatz"><div class="vertical">Umsatz:</div></th>
+                    {% for wabe in view.wabe %}
+                        <th class="vertical"><div class="vertical" id="{{ wabe.id }}">{{ wabe.wabe }}-{{ wabe.name }}</div></th>
+                        <th class="umsatz"><div class="vertical" >Umsatz</div></th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for filiale in view.filialen %}
+                    <tr>
+                        <th class="row-header"><div id="{{ filiale.filiale.id }}">{{ filiale.filiale.mandant }}</div></th>
+                        <th class="row-header">{{ filiale.filiale.lanr }}</th>
+                        <th class="row-header">{{ filiale.filiale.name }}</th>
+                        <td><div id="{{ filiale.id }}"><input type="Checkbox" name="Kenntnisse" value="HTML" {% if filiale.aktiv %}checked="checked"{% endif %}></div></td>
+                        <td>{{ filiale.flaeche }}</td>
+                        <td>{{ filiale.eigenschaft }}</td>
+                        <td class="umsatz">{{ filiale.umsatz }}</td>
+                        {% for wab in filiale.zubasewabekats.all %}
+                            <td><div id="{{ wab.id }}">{{ wab.eigenschaft }}</div></td>
+                            <td class="umsatz"><div>{{ wab.umsatz }}</div></td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock content%}
